@@ -1,0 +1,99 @@
+body{
+    background: #f2f2f2;
+    font-family: Arial;
+}
+.resume{
+    width: 800;
+    margin: auto;
+    background: white;
+    padding: 200;
+    box-shadow: 0 0 15px gray;
+
+}
+.header{
+    position: relative;
+    min-height: 180px;
+}
+h1{
+    text-align: center;
+    color: rgb(38, 156, 156);
+    text-decoration: underline;
+}
+.contant{
+    margin-top:30px;
+    text-align: center;
+}
+img{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 130px;
+    height: 150px;
+}
+.section{
+    margin-top: 35px;
+}
+.section h2{
+    background: #f2f2f2;
+    counter:rgb(188, 236, 236);
+
+}
+.table{
+     width: 100%;
+     border-collapse:collapse ;
+     margin-top: 20px;
+}
+.th{
+    background: white;
+    color: white;
+    padding: 12px;
+}
+.td{
+    padding: 12px;
+    text-align: center;
+}
+.table,th,td{
+    border: 2px solid black;
+}
+.section ul{
+line-height: 40px;
+font-size: 22px;
+}
+.section p{
+    font-size: 22;
+}
+.footer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.footer{
+
+margin-top:150px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+.footer p{
+
+margin:0;
+
+font-size:22px;
+
+}
+
+.footer h3{
+
+margin:0;
+
+font-size:24px;
+
+font-weight:bold;
+
+}
